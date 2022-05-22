@@ -1,0 +1,10 @@
+2022-05-22 18:58:07.3779 INFO 123
+2022-05-22 19:03:37.4311 ERROR System.Exception: Test
+2022-05-22 19:05:53.7900 ERROR System.FormatException: 輸入字串格式不正確。
+2022-05-22 19:06:44.0676 ERROR System.FormatException: 輸入字串格式不正確。
+   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 System.Convert.ToInt32(String value)
+   於 OMS.Services.OrderService.GetOrderInfo() 於 C:\Users\sujay\Desktop\Project\OMS\OMS\Services\OrderService.cs: 行 23
+2022-05-22 20:35:43.3838 ERROR 已發生類型 'System.Exception' 的例外狀況。
+2022-05-22 20:51:30.7568 ERROR 更新實體時發生錯誤。如需詳細資料，請參閱內部例外狀況。
